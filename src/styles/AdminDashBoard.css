@@ -1,0 +1,17 @@
+
+.adminHome{
+    /* background-image: url('https://img.freepik.com/free-vector/luxury-old-library-interior-night-dark-empty-room-reading-with-books-wooden-shelves_107791-3025.jpg?w=2000'); */
+    background-image: url('https://i.pinimg.com/originals/b8/00/87/b800878ec9ca72ed7f4ebe64e4aa1832.jpg');
+    mask-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.801));
+    background-size: cover;
+    background-position: center;
+    /* padding: 243px; */
+    padding-top: 10px;
+    padding-bottom: 467px;
+}
+.adminHomeContent{
+    /* color: whitesmoke; */
+    color: darkgray;
+    opacity: 0.8;
+    font-style: normal;
+}

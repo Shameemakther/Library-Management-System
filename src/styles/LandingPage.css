@@ -1,0 +1,52 @@
+.landingPage{
+    
+    background-image: url('https://i.pinimg.com/originals/67/18/22/671822c2f63dd5f65d8fd15c9710420b.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 32px;
+}
+.selectLoginType{
+    background-color: rgb(211, 209, 209);
+    width: 550px;
+    height: 300px;
+    margin: 130px auto;
+    border-radius: 10px;
+    opacity: 0.79;
+}
+.selectLoginType h1{
+    color: black;
+    /* padding-top: 30px; */
+    padding: 20px 0px;
+    opacity: 1;
+}
+.landing-btn button{
+    margin: 10px 0px;
+}
+.btn-1:hover{
+    border: 2px solid orangered;
+    font-weight: 600;
+}
+.btn-2:hover{
+    border: 2px solid green;
+    font-weight: 600;
+}
+.btn-1{
+    height: 37px;
+    width: 130px;
+    border-radius: 3px;
+    border: 1px solid orangered;
+    background-color: rgb(211, 209, 209);
+}
+.btn-2{
+    height: 37px;
+    width: 130px;
+    border-radius: 3px;
+    border: 1px solid green;
+    background-color: rgb(211, 209, 209);
+}
+.user-admin{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* -------------------------------------------------------------------------------- */

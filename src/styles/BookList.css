@@ -1,0 +1,87 @@
+/* .bookList{
+    background-color: beige;
+}
+.bookList h1{
+    margin-top: 0;
+}
+.book_section{
+    background-color: rgb(245, 245, 215);
+    text-align: center;
+}
+.book_card{
+    display: inline-block;
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 10px black;
+}
+.book_card button{
+    width: 75px;
+    height: 22px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+}
+.book_card button:hover{
+    border: 1px solid red;
+    font-weight: 600;
+} */
+/* -------------------------------------------------------- */
+.bookList{
+    background-color: beige;
+}
+.bookList h1{
+    margin-top: 0;
+}
+.book_section{
+    background-color: rgb(245, 245, 215);
+    text-align: center;
+}
+.book_card {
+    background-color: white;
+    opacity: 0.99;
+    display: flex;
+    align-items: center;
+    margin: 20px 150px;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.11);
+    border-radius: 5px;
+}
+.book_details{
+    width: 100%;
+    height: 250px;
+}
+.book_image{
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    box-shadow: 10px 10px 8px black;
+}
+.book_image img {
+    width: 200px;
+    padding-bottom: 0;
+}
+.book_btn2{
+    width: 90px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    margin-left: 20px;
+}
+.book_btn2:hover{
+    border: 1px solid red;
+    font-weight: 600;
+}
+.book_btn1{
+    width: 90px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 2px;
+    background-color: white;
+    margin-right: 20px;
+}
+.book_btn1:hover{
+    border: 1px solid yellowgreen;
+    font-weight: 600;
+}
