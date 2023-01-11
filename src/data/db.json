@@ -7084,6 +7084,16 @@
         "Jr."
       ],
       "categories": []
+    },
+    {
+      "title": "Harry Potter and the Sorcerer’s Stone",
+      "authors": "J.K. Rowling",
+      "categories": " fantasy literature",
+      "pageCount": "309",
+      "shortDescription": "Featuring vivid descriptions and an imaginative story line, it followed the adventures of the unlikely hero Harry Potter, a lonely orphan who discovers that he is actually a wizard and enrolls in the Hogwarts School of Witchcraft and Wizardry. The book received numerous awards, including the British Book Award",
+      "longDescription": "Harry Potter has no idea how famous he is. That's because he's being raised by his miserable aunt and uncle who are terrified Harry will learn that he's really a wizard, just as his parents were. But everything changes when Harry is summoned to attend an infamous school for wizards, and he begins to discover some clues about his illustrious birthright. From the surprising way he is greeted by a lovable giant, to the unique curriculum and colorful faculty at his unusual school, Harry finds himself drawn deep inside a mystical world he never knew existed and closer to his own noble destiny",
+      "thumbnailUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1474154022l/3._SY475_.jpg",
+      "id": 797
     }
   ],
   "users": [
@@ -7121,6 +7131,13 @@
       "email": "vyshak@gmail.com",
       "phoneNumber": "6535435325",
       "id": 5
+    },
+    {
+      "name": "Asjad",
+      "age": "22",
+      "email": "asjad@gmail.com",
+      "phoneNumber": "9076345216",
+      "id": 6
     }
   ]
 }

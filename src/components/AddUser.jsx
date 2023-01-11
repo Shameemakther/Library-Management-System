@@ -26,26 +26,26 @@ const AddUser = () => {
 
     return ( 
         <div className="addUser">
-            <h1>Add a new User</h1>
+            <h1 style={{color:'green'}} >Add a new User</h1>
             <div className="addUser_form">
                 <form action="" onSubmit={handleSubmit}>
                     <div className="addUser_name">
                         {/* <label htmlFor="">Name: </label> */}
-                        <input type="name" placeholder='Enter user name' value={name} onChange={(e) => setName(e.target.value)}  />
+                        <input required type="name" placeholder='Enter user name' value={name} onChange={(e) => setName(e.target.value)}  />
                     </div>
                     <div className="addUser_age">
                         {/* <label htmlFor="">Age: </label> */}
-                        <input type="number" min={1} placeholder='Enter user age' value={age} onChange={(e) => setAge(e.target.value)} />
+                        <input required type="number" min={1} placeholder='Enter user age' value={age} onChange={(e) => setAge(e.target.value)} />
                     </div>
                     <div className="addUser_email">
                         {/* <label htmlFor="">E-mail: </label> */}
-                        <input type="email" placeholder='Enter user email' value={email} onChange={(e) => setEmail(e.target.value)} />
+                        <input required type="email" placeholder='Enter user email' value={email} onChange={(e) => setEmail(e.target.value)} />
                     </div>
                     <div className="addUser_phoneNumber">
                         {/* <label htmlFor="">Phone Number: </label> */}
-                        <input type="tel" minLength={10} maxLength={10} placeholder='Enter User phone number' value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} />
+                        <input required type="tel" minLength={10} maxLength={10} placeholder='Enter User phone number' value={phoneNumber} onChange={(e) => setPhoneNumber(e.target.value)} />
                     </div>
-                    <button type='submit'>Add User</button>
+                    <button className='addUser_btn' type='submit'>Add User</button>
                 </form>
             </div>
         </div>

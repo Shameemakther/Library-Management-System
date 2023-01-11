@@ -1,0 +1,27 @@
+.user_navContent{
+    background-color: rgb(223, 223, 223);
+    /* background-color: rgb(182, 182, 168); */
+    /* background-color: rgb(112, 112, 110); */
+    /* background-color: azure; */
+    /* background-color: #e9ebf0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    padding-left: 130px;
+    height: 60px;
+    border-bottom: 2px solid black;
+}
+.user_navLink a{
+    text-decoration: none;
+    padding: 0px 25px;
+    color: black;
+}
+.user_navLink a:hover{
+    font-weight: 800px;
+    color: green;
+}
+.user_navLogo img{
+    width: 130px;
+    height: 50;
+}

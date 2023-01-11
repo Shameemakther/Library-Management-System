@@ -39,29 +39,31 @@ const AddBook = () => {
             <h1>Add a Book</h1>
             <div className="addBook_form">
                 <form action="" onSubmit={handleSubmit}>
-                    <div className='title'>
-                        {/* <label htmlFor="">Title</label> */}
-                        <input required type="text" placeholder='Title of the book' value={title} onChange={(e) => setTitle(e.target.value)} />
+                    <div className="addBook_content">
+                        <div className='addBook_title'>
+                            {/* <label htmlFor="">Title</label> */}
+                            <input className='input1' required type="text" placeholder='Title of the book' value={title} onChange={(e) => setTitle(e.target.value)} />
+                        </div>
+                        <div className='addBook_authors'>
+                            <input required type="text" placeholder='Authors of the book' value={authors} onChange={e => setAuthors(e.target.value)} />
+                        </div>
+                        <div className='addBook_categories'>
+                            <input required type="text" placeholder='Categories of the book' value={categories} onChange={e => setCategories(e.target.value)} />
+                        </div>
+                        <div className='addBook_pageCount'>
+                            <input required type="number" min={0} placeholder='Page count of the book' value={pageCount} onChange={e => setPageCount(e.target.value)} />
+                        </div>
+                        <div className='addBook_shortDescriptionDescription'>
+                            <textarea required name="" placeholder='Short description of the book' id="" cols="66" rows="5" value={shortDescription} onChange={e => setShortDescription(e.target.value)}></textarea>
+                        </div>
+                        <div className='addBook_longDescriptionDescription'>
+                            <textarea required name="" placeholder='Long description of the book' id="" cols="66" rows="5" value={longDescription} onChange={e => setlongDescription(e.target.value)}></textarea>
+                        </div>
+                        <div className='addBook_thumbnailthumbnailUrl'>
+                            <input required type="text" min={0} placeholder='Thumbnail url of the book' value={thumbnailUrl} onChange={e => setThumbnailUrl(e.target.value)} />
+                        </div>
+                        <button className='addBook_btn' type='submit'>Add Book</button>
                     </div>
-                    <div className='authorss'>
-                        <input required type="text" placeholder='authors of the book' value={authors} onChange={e => setAuthors(e.target.value)} />
-                    </div>
-                    <div className='categories'>
-                        <input required type="text" placeholder='categories of the book' value={categories} onChange={e => setCategories(e.target.value)} />
-                    </div>
-                    <div className='pageCount'>
-                        <input required type="number" min={0} placeholder='Page count of the book' value={pageCount} onChange={e => setPageCount(e.target.value)} />
-                    </div>
-                    <div className='shortDescriptionDescription'>
-                        <textarea required name="" placeholder='shortDescription description of the book' id="" cols="30" rows="10" value={shortDescription} onChange={e => setShortDescription(e.target.value)}></textarea>
-                    </div>
-                    <div className='longDescriptionDescription'>
-                        <textarea required name="" placeholder='longDescription description of the book' id="" cols="30" rows="10" value={longDescription} onChange={e => setlongDescription(e.target.value)}></textarea>
-                    </div>
-                    <div className='thumbnailthumbnailUrl'>
-                        <input required type="text" min={0} placeholder='thumbnailUrl of the book' value={thumbnailUrl} onChange={e => setThumbnailUrl(e.target.value)} />
-                    </div>
-                    <button type='submit'>Add Book</button>
                 </form>
             </div>
         </div>

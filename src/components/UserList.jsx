@@ -21,7 +21,7 @@ const UserList = () => {
 
     return (
         <div className="userList">
-            <h1>User List : <small><i>{users.length}</i></small></h1>
+            <h1 style={{color:'green'}} >User List  <small style={{color:'black'}}>: <i>{users.length}</i></small></h1>
             <div className="user_section">
                 {users.map(data => (
                     <div className="user_card">

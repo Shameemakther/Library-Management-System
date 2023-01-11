@@ -1,3 +1,49 @@
-.addBook_form{
+.addBook{
+    background-color: beige;
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+    padding-bottom: 35px;
+}
+.addBook h1{
+    margin-bottom: 0px;
+}
+.addBook_content{
     text-align: center;
+    background-color: white;
+    width: 600px;
+    padding: 20px;
+    margin: 0px auto;
+    border-radius: 5px;
+    box-shadow: 7px 7px 8px black;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    opacity: 0.8;
+}
+.input1{
+    margin-top: 20px;
+}
+.addBook_form input{
+    width: 500px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    /* text-align: center; */
+}
+.addBook_form textarea{
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    /* text-align: center; */
+}
+.addBook_btn{
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 100px;
+    height: 25px;
+}
+.addBook_btn:hover{
+    border: 1px solid green;
+    font-weight: 600;
 }
